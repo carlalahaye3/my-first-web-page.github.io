@@ -15,7 +15,12 @@ h1, h2 {
   color: #fc9d9d;
 }
 h3 {
-	font-size: 34px 
+	margin: 15px 40px;
+	font-size: 34px;
+	}
+ 
+h8 {
+	margin: 15px 40px;
 	}
 
 div {
@@ -40,4 +45,71 @@ div {
 .btn-pink:hover {
   color: white;
   opacity: 0.8;
+}
+
+.line-transparent {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-light {
+  color: white;
+  height: 5px;
+  width: 20%;
+  background: #EE9CA7;
+}
+
+.line-medium {
+  color: white;
+  height: 5px;
+  width: 30%;
+  background: #C86472;
+}
+
+.line-hard {
+color: white;
+  height: 5px;
+  width: 50%;
+  background: #9F3442;
+}
+
+.my_navbar {
+  display: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  background: #9F3442;
+  margin-top:120px;
+  flex-direction:row;
+	 position:relative;
+	width:800px;
+	height:350px;
+}
+
+.links {
+background: #9F3442;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction:row;
+}
+
+.logo{
+
+ position:absolute;
+	left:130px;
+	bottom:420px;
+	width:160px;
+	height:150px;
+}
+
+.link {
+background: #9F3442;
+  margin: 10px 90px;
+  color: white;
+}
+
+.link:hover {
+background: #9F3442;
+  color: #458D2E;
 }
